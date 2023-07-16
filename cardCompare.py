@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import random
 import math
 
-# Test commit
 # Note that several variables are lists solely for matplotlib
 num_simulations = 100
 max_num_comparisons = 1000
