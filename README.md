@@ -1,5 +1,6 @@
 # Card-Compare
 (I still need to finish writing this readme, but the code is complete!)
+(I could still improve runtime dramatically by leveraging NumPy functions in more places, since array processing in C with a lot of samples is much faster than in Python. I will work on this as time permits.)
 ### Introduction
 This project simulates a simple card comparison game that you've likely encountered at some point in your life. In this game, two players (player and house) draw cards from a standard 52 card deck. If the cards match, the player wins; otherwise, the house wins. Through various statistical approaches, this algorithm computes and then visualizes parameters that are scaled over a very large number of simulations. This monte carlo analysis models how experimental values converge to theoretical values, how error dissipates as confidence in emerging data trends increases, and how to maximize the long-term suffering of your opponent. Okay, maybe not that last one.
 
