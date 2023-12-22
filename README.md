@@ -15,8 +15,8 @@ After processing 100 simulations with 1,000 games in each simulation (100,000 ga
 
 ### Graph 2 (Average End Balance) and Graph 3 (Average Win Probability)
 <p align='center'>
-  <img src="https://github.com/GoldPapaya/Card-Compare/assets/93890310/fbfa7aff-3480-4342-9c82-8dca46036553" width="500"/>
-  <img src="https://github.com/GoldPapaya/Card-Compare/assets/93890310/71bfe664-c9a5-4eba-a495-d13b6cad3e44" width="500"/>
+  <img src="https://github.com/GoldPapaya/Card-Compare/assets/93890310/fbfa7aff-3480-4342-9c82-8dca46036553" width="400"/>
+  <img src="https://github.com/GoldPapaya/Card-Compare/assets/93890310/71bfe664-c9a5-4eba-a495-d13b6cad3e44" width="400"/>
 </p>
 
 As the number of simulations increases, the convergence of the end balance towards $0 and the win probability towards 1.92% is clear in the graphs above. Prehaps the most powerful element of this code is that it can be applied to any range of pre-determined conditions - you could absolutely model the behaviour of this monte carlo game as you vary the reward structure for the player/house for example. Simulations like these function as a heuristic for bypassing the complex mathematics often involved with bloated statistics work. When the complexity of a system (game) is extremely high, it's often way more practical to run an actual simulation rather than track and consolidate the numerous number of factors which together determine the resulting outcome.
