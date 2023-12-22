@@ -8,7 +8,7 @@ The probability of a player choosing a card that matches the last card in the de
 In the interest of making this problem a little easier to understand, I've divided both of these numbers by 2. I've also expressed each amount in terms of money, so instead of imagining players betting with percentages, we can imagine betting with real money. This is all to say: when a large number of games are played, the player bets $0.96925, and the house bets $49.03075, we can expect the total winnings to neither fall in favour of house or player.
 
 <p align='center'>
-  <img src="https://github.com/GoldPapaya/Card-Compare/assets/93890310/38b44aba-8316-4adc-83ef-4512b5b8b7cf" width="700"/>
+  <img src="https://github.com/GoldPapaya/Card-Compare/assets/93890310/38b44aba-8316-4adc-83ef-4512b5b8b7cf" width="600"/>
 </p>
 
 After processing 100 simulations with 1,000 games in each simulation (100,000 games total), the above graph holds that the average balance change is -$8.25 which is remarkably close to no change at all. Even with 100,000 games all being played independantly, each with their own end balances, the true average across all of these games tends towards the theoretical expected value. This represents the underlying idea behind the Central Limit Theorem, which states that with a large collection of independent random samples, a normal distribution about a mean (in this case, a mean of 0) is expected. 
