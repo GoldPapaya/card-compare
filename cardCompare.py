@@ -110,7 +110,7 @@ for i in range(1, len(num_simulations_list)):
         win_probability_under_threshold += 1
         valid_win_prob_sims.append([win_probabilities_ci[i - 1], num_simulations_list[i]])
 
-error_buffer = 10 # arbitrary buffer of 10 (to address red point bug)
+error_buffer = 10 # Arbitrary buffer of 10 (to address red point bug), ignore
 new_valid_end_bal_sims = []
 for i in range(len(valid_end_bal_sims)):
     if i >= error_buffer:
@@ -124,7 +124,7 @@ for i in range(len(valid_win_prob_sims)):
 plt.figure(figsize=(10, 6))
 plt.errorbar(num_simulations_list, end_balances, yerr=end_balances_ci, fmt='o-', label='Average Balance')
 
-# Add confidence intervals for the mean
+# Confidence intervals for the mean
 mean_end_balances = []
 for i in range(len(end_balances)):
     sum_end_bal = 0
@@ -143,7 +143,7 @@ for i in range(len(mean_end_balances)):
 
 plt.fill_between(num_simulations_list, lower_bound, upper_bound, alpha=0.3)
 
-# Express convergence condition as coloured points
+# Convergence points
 x_end_balance = []
 y_end_balance = []
 for point in new_valid_end_bal_sims:
@@ -171,7 +171,7 @@ plt.show()
 plt.figure(figsize=(10, 6))
 plt.errorbar(num_simulations_list, win_probabilities, yerr=win_probabilities_ci, fmt='o-', label='Win Probability')
 
-# Add confidence intervals for the mean
+# Confidence intervals for the mean
 mean_win_probabilities = []
 for i in range(len(win_probabilities)):
     sum_win_prob = 0
