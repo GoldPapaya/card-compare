@@ -1,6 +1,6 @@
 # Card-Compare
 ### Introduction
-This project simulates a card comparison game that you've likely encountered at some point in your life, wherein two players (player and house) draw cards from a standard 52 card deck. If the cards match, the player wins, and the house wins otherwise. Through various statistical approaches, this algorithm computes and visualizes the outcomes of this simple card game over several simulations. This Monte Carlo analysis models how experimental values converge to theoretical values, how error gradually dissipates as confidence in an emerging data trend increases, and how to maximize the long-term suffering of your opponent. Okay, maybe not that last one.
+This project simulates a card comparison game that you've likely encountered at some point in your life, wherein a player and a house draw cards from a standard 52 card deck. If the cards match, the player wins, and the house wins in the opposing case. Through various statistical approaches, this algorithm computes and visualizes the outcomes of this simple card game over several simulations. This Monte Carlo analysis models how experimental values converge to theoretical values, how error gradually dissipates as confidence in an emerging data trend increases, and how to maximize the long-term suffering of your opponent. Okay, maybe not that last one.
 
 (Note that Monte Carlo simulations like these are often used as a heuristic approach to problems that are deterministic yet complex. This card game is not very complex, which makes it much easier to analyze.)
 
